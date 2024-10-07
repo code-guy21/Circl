@@ -6,9 +6,9 @@ const App: React.FC = () => {
 	const handleButtonClick = async () => {
 		try {
 			let res = await fetch('http://localhost:8080');
-			let data = await res.text();
+			let data = await res.json();
 			console.log(data);
-			setMessage(data);
+			setMessage(data.message);
 		} catch (error) {
 			console.log(error);
 		}

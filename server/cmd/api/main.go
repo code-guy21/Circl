@@ -1,21 +1,17 @@
 package main
 
-import (
-	"fmt"
-	"log"
-	"net/http"
-	"github.com/gorilla/mux"
+import(
+	"github.com/gin-gonic/gin"
 )
 
-func HomeHandler(w http.ResponseWriter, r *http.Request){
-	fmt.Fprintln(w, "Welcome to my API")
-}
-
 func main(){
-	r := mux.NewRouter()
+	r := gin.Default()
 
-	r.HandleFunc("/", HomeHandler).Methods("GET")
+	r.GET("/", func(c *gin.Context){
+		c.JSON(200, gin.H{
+			"message": "Welcome to PingUp API",
+		})
+	})
 
-	log.Println("API is running on port 8080...")
-	log.Fatal(http.ListenAndServe(":8080", r))
+	r.Run(":8080")
 }
