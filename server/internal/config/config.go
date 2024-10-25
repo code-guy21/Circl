@@ -10,7 +10,7 @@ func LoadConfig(){
 	cwd, _ := os.Getwd()
     log.Println("Current working directory:", cwd)
 
-	err := godotenv.Load("./env")
+	err := godotenv.Load()
 	if err != nil {
 		log.Println("No .env file found")
 	}
