@@ -4,7 +4,7 @@
 <br />
 <div align="center">
 
-  <h3 align="center">PingUp</h3>
+  <h3 align="center">Circl</h3>
 
   <p align="center">
     A real-time friend status app that lets you check in on your friends' availability and set your own status.
@@ -30,7 +30,7 @@
 
 ## About The Project
 
-PingUp is a real-time friend status application that lets users share their availability, activities, and preferences (e.g., "Busy but Available for Text," "Free for FaceTime"). The app supports smart automation with timers, AI-powered status suggestions, and customizable privacy controls. Whether you’re coordinating with friends or just want to know who’s free, PingUp makes it easy to stay connected.
+Circl is a real-time friend status application that lets users share their availability, activities, and preferences (e.g., "Busy but Available for Text," "Free for FaceTime"). The app supports smart automation with timers, AI-powered status suggestions, and customizable privacy controls. Whether you’re coordinating with friends or just want to know who’s free, PingUp makes it easy to stay connected.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
